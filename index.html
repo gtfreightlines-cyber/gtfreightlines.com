@@ -224,5 +224,11 @@
   });
 })();
 </script>
+<script>
+/* GT Freight Lines visit beacon (2026-10-08): counts website visits for the
+   owner traffic view (Settings -> Traffic). 1px image request, no cookies,
+   no personal data collected. */
+(function(){try{var i=new Image();i.src='https://app.gtfreightlines.com/api/v1/beacon?h='+encodeURIComponent(location.hostname)+'&p='+encodeURIComponent(location.pathname+location.hash)+'&r='+encodeURIComponent(document.referrer||'');}catch(e){}})();
+</script>
 </body>
 </html>
